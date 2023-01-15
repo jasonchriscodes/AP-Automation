@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.custom.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script>
+	Modernizr.load({
+		test: Modernizr.inputtypes.date,
+		nope: "js/jquery-ui.custom.js",
+		callback: function() {
+		  $("input[type=date]").datepicker();
+		}
+	  });
+	</script>
+</head>
+<body>
+Test of DatePicker
+<input type="date"/>
+</body>
+</html>

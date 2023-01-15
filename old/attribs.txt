@@ -1,0 +1,5 @@
+Control Identifiers:
+
+WindowsForms10.Window.8.app.0.378734a - 'Baseplan Enterprise'    (L-4, T-4, R1924, B1040)
+['Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a', 'Baseplan Enterprise', 'WindowsForms10.Window.8.app.0.378734a', 'WindowsForms10.Window.8.app.0.378734a0', 'WindowsForms10.Window.8.app.0.378734a1', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a0', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a1']
+child_window(title="Baseplan Enterprise", auto_id="frmSwitchboard", control_type="BPEnterprise.frmSwitchboard")

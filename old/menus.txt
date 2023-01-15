@@ -1,0 +1,9 @@
+Control Identifiers:
+
+WindowsForms10.Window.8.app.0.378734a - ''    (L0, T69, R290, B1017)
+['WindowsForms10.Window.8.app.0.378734a', '\ue00eWindowsForms10.Window.8.app.0.378734a', 'WindowsForms10.Window.8.app.0.378734a0', 'WindowsForms10.Window.8.app.0.378734a1', '\ue00eWindowsForms10.Window.8.app.0.378734a0', '\ue00eWindowsForms10.Window.8.app.0.378734a1']
+child_window(auto_id="MainMenuPanelNew", control_type="BPControlSuite3.BPCollapsibleMenuPanel")
+   | 
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T69, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a2', '\ue00eWindowsForms10.Window.8.app.0.378734a2']
+   | child_window(auto_id="LayoutContainer", control_type="System.Windows.Forms.TableLayoutPanel")

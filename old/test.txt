@@ -1,0 +1,258 @@
+Control Identifiers:
+
+WindowsForms10.Window.8.app.0.378734a - 'Baseplan Enterprise'    (L-4, T-4, R1924, B1040)
+['WindowsForms10.Window.8.app.0.378734a', 'Baseplan Enterprise', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a', 'WindowsForms10.Window.8.app.0.378734a0', 'WindowsForms10.Window.8.app.0.378734a1', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a0', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a1']
+child_window(title="Baseplan Enterprise", auto_id="frmSwitchboard", control_type="BPEnterprise.frmSwitchboard")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L-10000, T-9981, R-9800, B-9881)
+   | ['WindowsForms10.Window.8.app.0.378734a2', '', '0', '1']
+   | child_window(auto_id="HiddenControlsPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T19, R1920, B1036)
+   | ['WindowsForms10.Window.8.app.0.378734a3', '\ue00eWindowsForms10.Window.8.app.0.378734a', '\ue00eWindowsForms10.Window.8.app.0.378734a0', '\ue00eWindowsForms10.Window.8.app.0.378734a1']
+   | child_window(auto_id="FormPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L290, T69, R1920, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a4', '\ue00eWindowsForms10.Window.8.app.0.378734a2']
+   | child_window(auto_id="MainApplicationTabPanel", control_type="BPControlSuite3.BPSwitchboardTabContainer")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L291, T70, R1919, B989)
+   | ['WindowsForms10.Window.8.app.0.378734a5', '\ue00fWindowsForms10.Window.8.app.0.378734a', '\ue00fWindowsForms10.Window.8.app.0.378734a0', '\ue00fWindowsForms10.Window.8.app.0.378734a1']
+   | child_window(auto_id="UltraTabSharedControlsPage1", control_type="Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L291, T70, R1919, B989)
+   | ['WindowsForms10.Window.8.app.0.378734a6', '\ue00fWindowsForms10.Window.8.app.0.378734a2']
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L291, T70, R1919, B989)
+   | ['WindowsForms10.Window.8.app.0.378734a7', '\ue00fWindowsForms10.Window.8.app.0.378734a3']
+   | child_window(auto_id="BPEmbeddedFormContainer", control_type="BPControlSuite3.BPEmbeddedFormContainer")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - 'BPDashboard'    (L291, T70, R1919, B989)
+   | ['WindowsForms10.Window.8.app.0.378734a8', 'BPDashboard', 'BPDashboardWindowsForms10.Window.8.app.0.378734a']
+   | child_window(title="BPDashboard", auto_id="BPDashboard", control_type="BPEnterprise.BPDashboard")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L291, T70, R1919, B989)
+   | ['WindowsForms10.Window.8.app.0.378734a9', '\ue00fWindowsForms10.Window.8.app.0.378734a4']
+   | child_window(auto_id="tlpDashboardMain", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L292, T123, R1918, B988)
+   | ['WindowsForms10.Window.8.app.0.378734a10', '\ue00eWindowsForms10.Window.8.app.0.378734a3']
+   | child_window(auto_id="DashboardTab", control_type="Infragistics.Win.UltraWinTabControl.UltraTabControl")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L293, T147, R1917, B987)
+   | ['WindowsForms10.Window.8.app.0.378734a11', '\ue00eWindowsForms10.Window.8.app.0.378734a4']
+   | child_window(auto_id="UltraTabPageControl1", control_type="Infragistics.Win.UltraWinTabControl.UltraTabPageControl")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L293, T147, R1917, B987)
+   | ['WindowsForms10.Window.8.app.0.378734a12', '\ue00eWindowsForms10.Window.8.app.0.378734a5']
+   | child_window(auto_id="tlpBrowser", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L294, T148, R1916, B985)
+   | ['WindowsForms10.Window.8.app.0.378734a13', '\ue00eWindowsForms10.Window.8.app.0.378734a6']
+   | child_window(auto_id="WebBrowser1", control_type="System.Windows.Forms.WebBrowser")
+   |
+   | Shell Embedding - ''    (L294, T148, R1916, B985)
+   | ['Shell Embedding', '\ue00eShell Embedding']
+   | child_window(class_name="Shell Embedding")
+   |
+   | Shell DocObject View - ''    (L294, T148, R1916, B985)
+   | ['\ue00eShell DocObject View', 'Shell DocObject View']
+   | child_window(class_name="Shell DocObject View")
+   |
+   | Internet Explorer_Server - ''    (L294, T148, R1916, B985)
+   | ['\ue00eInternet Explorer_Server', 'Internet Explorer_Server']
+   | child_window(class_name="Internet Explorer_Server")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L293, T147, R1917, B987)
+   | ['WindowsForms10.Window.8.app.0.378734a14', '\ue00eWindowsForms10.Window.8.app.0.378734a7']
+   | child_window(auto_id="UltraTabSharedControlsPage1", control_type="Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L294, T73, R1916, B119)
+   | ['WindowsForms10.Window.8.app.0.378734a15', '\ue00fWindowsForms10.Window.8.app.0.378734a5']
+   | child_window(auto_id="tlpHeader", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | Static - ''    (L297, T73, R1175, B119)
+   | ['Static', '\ue00fStatic', 'Static0', 'Static1', '\ue00fStatic0', '\ue00fStatic1']
+   | child_window(auto_id="lblErrors", control_type="BPControlSuite3.BPLabel")
+   |
+   | Button - ''    (L1873, T76, R1913, B116)
+   | ['Button', 'Ap.AutomationButton']
+   | child_window(auto_id="cmdRefreshData", control_type="BPControlSuite.BPFixedButton")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T69, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a16', '\ue00eWindowsForms10.Window.8.app.0.378734a8']
+   | child_window(auto_id="MainMenuPanelNew", control_type="BPControlSuite3.BPCollapsibleMenuPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T69, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a17', '\ue00eWindowsForms10.Window.8.app.0.378734a9']
+   | child_window(auto_id="LayoutContainer", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | Static - ''    (L268, T69, R290, B101)
+   | ['\ue00e', 'Static2', '\ue00eStatic']
+   | child_window(title="", auto_id="CollapseLabel", control_type="System.Windows.Forms.Label")
+   |
+   | Static - ''    (L290, T69, R291, B1017)
+   | ['Static3', '\ue00f', '\ue00fStatic2']
+   | child_window(title="", auto_id="ExpandLabel", control_type="System.Windows.Forms.Label")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a18', '\ue00eWindowsForms10.Window.8.app.0.378734a10']
+   | child_window(auto_id="MainContentPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a19', '\ue00eWindowsForms10.Window.8.app.0.378734a11']
+   | child_window(auto_id="MenuAndFavouritesSplitContainer", control_type="BPControlSuite3.BPSplitContainer")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B959)
+   | ['WindowsForms10.Window.8.app.0.378734a20', '\ue00eWindowsForms10.Window.8.app.0.378734a12']
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B954)
+   | ['WindowsForms10.Window.8.app.0.378734a21', '\ue00eWindowsForms10.Window.8.app.0.378734a13']
+   | child_window(auto_id="MainMenu", control_type="BPControlSuite3.BPMainMenu")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T169, R290, B203)
+   | ['WindowsForms10.Window.8.app.0.378734a22', '\ue00eWindowsForms10.Window.8.app.0.378734a14']
+   | child_window(auto_id="BPMenuSection", control_type="BPControlSuite3.BPMenuSection")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T169, R290, B203)
+   | ['WindowsForms10.Window.8.app.0.378734a23', '\ue00eWindowsForms10.Window.8.app.0.378734a15']
+   | child_window(auto_id="MainLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T169, R290, B203)
+   | ['WindowsForms10.Window.8.app.0.378734a24', '\ue00eWindowsForms10.Window.8.app.0.378734a16']
+   | child_window(auto_id="HeaderPanel", control_type="BPControlSuite3.BPSelectablePanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T135, R290, B169)
+   | ['WindowsForms10.Window.8.app.0.378734a25', '\ue00eWindowsForms10.Window.8.app.0.378734a17']
+   | child_window(auto_id="BPMenuSection", control_type="BPControlSuite3.BPMenuSection")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T135, R290, B169)
+   | ['WindowsForms10.Window.8.app.0.378734a26', '\ue00eWindowsForms10.Window.8.app.0.378734a18']
+   | child_window(auto_id="MainLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T135, R290, B169)
+   | ['WindowsForms10.Window.8.app.0.378734a27', '\ue00eWindowsForms10.Window.8.app.0.378734a19']
+   | child_window(auto_id="HeaderPanel", control_type="BPControlSuite3.BPSelectablePanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B135)
+   | ['WindowsForms10.Window.8.app.0.378734a28', '\ue00eWindowsForms10.Window.8.app.0.378734a20']
+   | child_window(auto_id="BPMenuSection", control_type="BPControlSuite3.BPMenuSection")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B135)
+   | ['WindowsForms10.Window.8.app.0.378734a29', '\ue00eWindowsForms10.Window.8.app.0.378734a21']
+   | child_window(auto_id="MainLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B135)
+   | ['WindowsForms10.Window.8.app.0.378734a30', '\ue00eWindowsForms10.Window.8.app.0.378734a22']
+   | child_window(auto_id="HeaderPanel", control_type="BPControlSuite3.BPSelectablePanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T963, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a31', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a2']
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T968, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a32', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a3']
+   | child_window(auto_id="FavouritesMenu", control_type="BPControlSuite3.BPMenuSection")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T968, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a33', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a4']
+   | child_window(auto_id="MainLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T1009, R290, B1010)
+   | ['WindowsForms10.Window.8.app.0.378734a34', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a5']
+   | child_window(auto_id="SubMenuTreeView", control_type="BPControlSuite3.BPTreeView")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T968, R290, B1002)
+   | ['WindowsForms10.Window.8.app.0.378734a35', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a6']
+   | child_window(auto_id="HeaderPanel", control_type="BPControlSuite3.BPSelectablePanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T101, R290, B1017)
+   | ['WindowsForms10.Window.8.app.0.378734a36', '\ue00eWindowsForms10.Window.8.app.0.378734a23']
+   | child_window(auto_id="SearchResultsList", control_type="BPControlSuite3.BPSearchResultsListView")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T69, R268, B101)
+   | ['WindowsForms10.Window.8.app.0.378734a37', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a7']
+   | child_window(auto_id="TopContentPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | Edit - ''    (L6, T75, R262, B95)
+   | ['Baseplan EnterpriseEdit', 'Edit']
+   | child_window(auto_id="SearchMainMenuTextBox", control_type="BPControlSuite3.BPTextBox")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T19, R1920, B69)
+   | ['WindowsForms10.Window.8.app.0.378734a38', '2']
+   | child_window(auto_id="TopBarPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T19, R1920, B69)
+   | ['WindowsForms10.Window.8.app.0.378734a39', '3']
+   | child_window(auto_id="ApplicationMenuLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | Static - 'Ap.Automation'    (L1749, T33, R1863, B54)
+   | ['Static4', 'Ap.Automation', 'Ap.AutomationStatic']
+   | child_window(title="Ap.Automation", auto_id="lblUser", control_type="System.Windows.Forms.Label")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L229, T19, R1707, B69)
+   | ['WindowsForms10.Window.8.app.0.378734a40', '4']
+   | child_window(auto_id="ToolBarAndFormActionPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L244, T44, R1687, B44)
+   | ['WindowsForms10.Window.8.app.0.378734a41', '5']
+   | child_window(auto_id="ToolbarsPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L1704, T22, R1705, B66)
+   | ['WindowsForms10.Window.8.app.0.378734a42', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a8']
+   | child_window(auto_id="FormMenuStripPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T19, R229, B69)
+   | ['WindowsForms10.Window.8.app.0.378734a43', '6']
+   | child_window(auto_id="LogoAreaPanel", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T19, R229, B69)
+   | ['WindowsForms10.Window.8.app.0.378734a44', '7']
+   | child_window(auto_id="EnterpriseLogoPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L10, T30, R152, B58)
+   | ['WindowsForms10.Window.8.app.0.378734a45', '8']
+   | child_window(auto_id="LogoPictureBox", control_type="System.Windows.Forms.PictureBox")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L1707, T24, R1747, B64)
+   | ['WindowsForms10.Window.8.app.0.378734a46', 'Baseplan EnterpriseWindowsForms10.Window.8.app.0.378734a9']
+   | child_window(auto_id="SettingsIcon", control_type="BPControlSuite3.BPImageIcon")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L1865, T24, R1905, B64)
+   | ['WindowsForms10.Window.8.app.0.378734a47', 'Ap.AutomationWindowsForms10.Window.8.app.0.378734a']
+   | child_window(auto_id="UserProfileIcon", control_type="BPControlSuite3.IconWithBadge")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T1017, R1920, B1036)
+   | ['WindowsForms10.Window.8.app.0.378734a48', 'Test SystemWindowsForms10.Window.8.app.0.378734a', 'Test SystemWindowsForms10.Window.8.app.0.378734a0', 'Test SystemWindowsForms10.Window.8.app.0.378734a1']
+   | child_window(auto_id="pnlBottomBar", control_type="System.Windows.Forms.Panel")
+   |
+   | WindowsForms10.Window.8.app.0.378734a - ''    (L0, T1017, R1920, B1036)
+   | ['WindowsForms10.Window.8.app.0.378734a49', 'Test SystemWindowsForms10.Window.8.app.0.378734a2']
+   | child_window(auto_id="DetailsTableLayoutPanel", control_type="System.Windows.Forms.TableLayoutPanel")
+   |
+   | Static - 'Test System'    (L3, T1020, R93, B1033)
+   | ['Static5', 'Test SystemStatic', 'Test System']
+   | child_window(title="Test System", auto_id="SystemTagLabel", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - 'Company: TEST TEST Centra Forklifts NZ Ltd'    (L93, T1020, R343, B1033)
+   | ['Static6', 'Company: TEST TEST Centra Forklifts NZ LtdStatic', 'Company: TEST TEST Centra Forklifts NZ Ltd']
+   | child_window(title="Company: TEST TEST Centra Forklifts NZ Ltd", auto_id="lblCompany", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - 'Release: 23031'    (L629, T1020, R736, B1033)
+   | ['Release: 23031', 'Static7', 'Release: 23031Static', 'Release: 23031Static0', 'Release: 23031Static1']
+   | child_window(title="Release: 23031", auto_id="lblReleaseNo", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - 'Version: 1501.1.43.0'    (L499, T1020, R629, B1033)
+   | ['Static8', 'Version: 1501.1.43.0', 'Version: 1501.1.43.0Static']
+   | child_window(title="Version: 1501.1.43.0", auto_id="lblVersion", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - 'Database: CENTRATEST'    (L343, T1020, R499, B1033)
+   | ['Database: CENTRATEST', 'Static9', 'Database: CENTRATESTStatic', 'Database: CENTRATESTStatic0', 'Database: CENTRATESTStatic1']
+   | child_window(title="Database: CENTRATEST", auto_id="lblDatabaseName", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - ''    (L742, T1020, R1421, B1033)
+   | ['Release: 23031Static2', 'Static10', 'Database: CENTRATESTStatic2']
+   | child_window(auto_id="ImportantInformationLabel", control_type="BPControlSuite.BPLabel")
+   |
+   | Static - ''    (L739, T1020, R740, B1033)
+   | ['Release: 23031Static3', 'Static11']
+   | child_window(auto_id="lblRecords", control_type="BPControlSuite3.BPLabel")
