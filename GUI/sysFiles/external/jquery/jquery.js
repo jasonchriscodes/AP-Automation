@@ -147,7 +147,7 @@ jQuery.fn = jQuery.prototype = {
 		return this.pushStack( slice.apply( this, arguments ) );
 	},
 
-	first: function() {
+	first: function() {92697047	
 		return this.eq( 0 );
 	},
 

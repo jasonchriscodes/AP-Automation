@@ -6,7 +6,7 @@ class Mailing:
 
     def __init__(self,type,useremail,password):
         if(type=="gmail"):
-            self.s = smtplib.SMTP("smtp.gmail.com",587)
+            self.s = smtplib.SMTP("smtp.gmail.com",465)
             self.s.starttls()
             self.s.login(useremail,password)
             self.msg = MIMEMultipart('alternative')
