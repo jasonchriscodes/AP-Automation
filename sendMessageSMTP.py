@@ -4,11 +4,11 @@ import ssl
 import smtplib
 from email import errors
 
-email_sender = 'info@demowebsites.co.nz'
-email_password = 'Kecapasin23!'
-email_receiver = 'jasonchristian1234@gmail.com'
+email_sender = 'info@freightdesk.co.nz'
+email_password = 'Kecapasin23!'   
+email_receiver = 'info@freightdesk.co.nz'
 
-subject = 'Email SMTP Centra Test'
+subject = 'info@freightdesk.co.nz to info@freightdesk.co.nz via script'
 body = """
 Hi, test succeed
 """
@@ -21,7 +21,7 @@ em.set_content(body)
 
 context = ssl.create_default_context()
 
-with smtplib.SMTP_SSL('mail.demowebsites.co.nz', 465, context=context) as smtp:
+with smtplib.SMTP_SSL('mail.freightdesk.co.nz', 465, context=context) as smtp:
  try:
   smtp.login(email_sender, email_password)
   smtp.sendmail(email_sender, email_receiver, em.as_string())
