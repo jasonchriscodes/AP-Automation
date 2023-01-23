@@ -1,17 +1,19 @@
 import smtplib 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+import ssl
 
 class Mailing:
 
     def __init__(self,type,useremail,password):
         if(type=="gmail"):
             print("before")
-            self.s = smtplib.SMTP("mail.freightdesk.co.nz",465)
-            print("test: self.s"+self.s)
-            self.s.starttls()
+            context = ssl.create_default_context()
+            self.s = smtplib.SMTP_SSL("mail.freightdesk.co.nz",465, context=context)
+            print("test: self.s")
+            # self.s.starttls()
             self.s.login(useremail,password)
-            print("test: self.s login:"+self.s.login(useremail,password))
+            print("test: self.s login:")
             self.msg = MIMEMultipart('alternative')
             self.msg['From'] = useremail
             print("Your message has been sent.")
