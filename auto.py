@@ -217,8 +217,8 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
 
             if(match==False):
                 l.add("expecting error message as totals are not matching")
-                #popup = Popup(invoicing,l)        
-                #popup.click_yes()
+                popup = Popup(invoicing,l)        
+                popup.click_yes()
                 n.publish_failed_notify(po_num)
                 popup = Popup(invoicing,l)                   
                 popup.click_ok()
@@ -257,13 +257,15 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             n.publish_failed_notify_unknown_error(po_num,errMsg)
             l.add(errMsg)
             g.kill_app()            
-            g = startProcessing(p)     
+            # g = startProcessing(p)     
             
     g.kill_app()
     db.close()
 
 l.add("-----------------END PO Proceesing-----------------------")
-if(n.outbox_Msgs()):
+if(n.outbox_Msgs1()):   
+    l.add("test if ")
     l.add("Digest sent")
 else:
     l.add("Failed sending consolidated mail")
+    l.add("test else ")   
