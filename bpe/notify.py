@@ -65,9 +65,11 @@ class Notification:
         this_msg = [er_type,po_num,msg];
         self.digest_log.append(this_msg);
 
-    def outbox_Msgs(self):
+    def outbox_Msgs1(self):
         dt = datetime.datetime.now()
+        print("test 1")
         if(self.digest_log):
+            print("test if 1")
             print("sent to "+self.to_email)
             html = "<html><head></head><body>Hi User,<br/><br/>"
             #html += "Here is the digest for the ap automation on "+dt.strftime('%c')+" for "+self.EOM+".<br/><br/>"
@@ -79,12 +81,14 @@ class Notification:
             for indx, item in enumerate(self.digest_log):
                 html += item[2]
             html += "<br/><br/>Thank You,<br/>Regards,<br/>Automation Script.</body></html>"
-            m = Mailing(self.mail_type,self.user_name,self.pass_word)
+            m = Mailing("gmail",self.user_name,self.pass_word)
             m.setSubject("AutoNotify::Mail digest from AP Automation for cutoff "+self.EOM)
             succss = m.sendHTMLMail(self.to_email,self.cc_email,html)
             m.close()
             if(succss):
+                print("test if 2")
                 return 1
             else:
+                print("else 2")
                 return 0
             
