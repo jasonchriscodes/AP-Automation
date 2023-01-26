@@ -147,6 +147,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             be = BPE()
             be.setLog(l)
             be.nav("Invoicing")
+            l.add("navbar invoicing")
 
             invoicing = Invoicing()
             invoicing.setLog(l)
@@ -159,6 +160,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             invoicing.set_supplier_as_ref(supplier)
             ########################################
             try:#
+                l.add("pop up error")
                 errP = Popup(invoicing,l)
                 errMsg = errP.get_popup_message()
                 if(errP.yes_btn().exists()):
@@ -171,6 +173,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             invoicing.set_document_total(doctotal)
             #######################################
             try:
+                l.add("pop up error 2")
                 errP = Popup(invoicing,l)
                 errMsg = errP.get_popup_message()
                 if(errP.yes_btn().exists()):
@@ -187,7 +190,8 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
 
             invoicing = Invoicing()
             invoicing.setLog(l)
-            ss = SupplierSelection(invoicing,l)                           
+            ss = SupplierSelection(invoicing,l)   
+            l.add("invoicing supplier selection")                       
             #ss.select_filter_all()
 
             if(ss.record_count()>0):
@@ -200,6 +204,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             ss.click_ok_btn()        
             invoicing = Invoicing()
             invoicing.setLog(l)
+            l.add("get detail total")
             detailsTotal = invoicing.get_details_total()
             docNo = invoicing.get_doc_id()
             documentTotal = (invoicing.get_document_total())
@@ -213,6 +218,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             invoicing = Invoicing()        
             invoicing.setLog(l)
             invoicing.click_tool_bar("Post Current")
+            l.add("posting current")
 
 
             if(match==False):
@@ -237,6 +243,7 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
                 
             invoicing = Invoicing()
             invoicing.setLog(l)
+            l.add("invoicing close")
             invoicing.click_tool_bar("Close")
                         
         except Exception as e:
@@ -246,15 +253,19 @@ if(db.connect(dbhost,dbname,dbuser,dbpass)):
             try:
                 errP = Popup(invoicing,l)
                 errMsg = errP.get_popup_message()
+                l.add("error Message inside try block:" + errMsg)
                 if(errP.yes_btn().exists()):
                     errP.click_yes()
+                    l.add("yes button clicked")
                 elif(errP.ok_btn().exists()) :
+                    l.add("no button clicked")
                     errP.click_ok()
 
             except Exception as e1:
                 l.add("Exception occurred to get message from error popup if any")
             
             n.publish_failed_notify_unknown_error(po_num,errMsg)
+            l.add("publish failed")
             l.add(errMsg)
             g.kill_app()            
             # g = startProcessing(p)     
