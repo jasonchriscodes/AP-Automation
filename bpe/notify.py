@@ -64,7 +64,7 @@ class Notification:
         # m.sendHTMLMail(self.to_email,html)
         # m.close()
         self.add_to_digest("unknown error", po_num, str(
-            po_num)+" <b>erred with message:</b> "+msg+".<br/>")
+            po_num)+" <b>error message:</b> "+msg+".<br/>")
         self.set_Success_Fail(0, 1)
 
     def add_to_digest(self, er_type, po_num, msg):
@@ -94,7 +94,7 @@ class Notification:
             else:
                 html += "no successful PO found.<br/><br/>"
             html += "But "+str(self.monkeyWrench) + \
-                " of the following issues were encountered <br/><br/>"
+                " the following PO's were not processed due to errors: <br/><br/>"
             for indx, item in enumerate(self.digest_log):
                 html += item[2]
             html += "<br/><br/>Thank You,<br/>Regards,<br/>Automation Script.</body></html>"
