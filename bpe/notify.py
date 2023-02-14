@@ -86,13 +86,13 @@ class Notification:
             html += str(self.totalPOs) + \
                 " invoices processed from Ferret via AP Automation<br/><br/>"
             html += str(self.allGood) + \
-                " processed are OK with no issues.<br/><br/>"
+                " processed are OK with no issues and need to be Posted in BasePlan - these PO's are: <br/><br/>"
             if(len(self.successOrder)):
                 for i in range(0, len(self.successOrder)):
-                    html += "PO number:" + self.successOrder[i] + "<br/>"
+                    html += self.successOrder[i] + "<br/>"
                 html += "<br/>"
             else:
-                html += "PO number: no successful PO found.<br/><br/>"
+                html += "no successful PO found.<br/><br/>"
             html += "But "+str(self.monkeyWrench) + \
                 " of the following issues were encountered <br/><br/>"
             for indx, item in enumerate(self.digest_log):
