@@ -276,7 +276,7 @@ if (db.connect(dbhost, dbname, dbuser, dbpass)):
                     errP.click_yes()
                     l.add("yes button clicked")
                 elif (errP.ok_btn().exists()):
-                    l.add("no button clicked")
+                    l.add("Ok button clicked")
                     errP.click_ok()
 
             except Exception as e1:
@@ -285,7 +285,7 @@ if (db.connect(dbhost, dbname, dbuser, dbpass)):
             n.publish_failed_notify_unknown_error(po_num, errMsg)
             l.add("publish failed")
             l.add(errMsg)
-            g.kill_app()
+            # g.kill_app()
             # g = startProcessing(p)
 
     g.kill_app()

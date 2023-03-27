@@ -1,3 +1,4 @@
+import datetime
 from pywinauto.application import Application
 from pywinauto import backend
 from pywinauto import mouse, keyboard
@@ -5,6 +6,8 @@ from pywinauto import win32structures
 import time
 import os
 import sys
+from lib.log import Log
+from lib.prop import Prop
 
 
 class Obj:
@@ -16,6 +19,16 @@ class Obj:
             print("self.win")
             if (not par):
                 self.app_handle = self.g.get_handle(win_name)
+                # p = Prop("settingGen.cfg")
+                # p.setOption("DEFAULT", "stop", "no")
+                # dt = datetime.datetime.now()
+                # logLoc = p.get("DEFAULT", "DEFAULTSECT")
+                # today = str('%02d' % dt.day)+"/"+str('%02d' % dt.month)+"/"+str(dt.year)
+                # logFileName = logLoc + "/" + "Connect_" + \
+                #     str('%02d' % dt.day)+"_"+str('%02d' % dt.month)+"_"+str(dt.year) + ".log"
+                # l = Log(logFileName)
+                # l.add("connect: ", self.app_handle)
+                print("self.apphandle: ", self.app_handle)
                 self.g.set_window(self.app_handle)
                 self.win = self.g.get_window()
                 self.win.set_focus()
@@ -115,6 +128,7 @@ class Gen:
 
     def set_window(self, handle_app):
         # print("Handle:"+ str(handle_app))
+        # self.handle_app = 1508732
         self.handle_app = handle_app
         self.app = Application(backend="uia").connect(handle=handle_app)
         self.win = self.app.top_window()
